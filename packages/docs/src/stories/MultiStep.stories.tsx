@@ -11,7 +11,10 @@ export default {
     decorators: [   
         (Story) => {
             return(
-                <Box as="label" css={{display: 'flex', flexDirection: 'column', gap: '$2'}}>
+                <Box 
+                    as="label" 
+                    css={{display: 'flex', flexDirection: 'column', gap: '$2'}}
+                >
                     {Story()}
                 </Box>
             )

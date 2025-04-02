@@ -8,6 +8,13 @@ export default {
         src: 'https://github.com/nicolasreisdev.png',
         alt: 'Nicolas Reis',
     },
+    argTypes: {
+        src: {
+            control: {
+                type: 'text',
+            }
+        }
+    }
 
 } as Meta<AvatarProps>
 
